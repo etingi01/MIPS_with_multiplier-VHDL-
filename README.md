@@ -5,13 +5,13 @@ multiplication between the first 16 bits of $rs and the first 16 bits of $rt and
 
 The form of MAC commands is a = a + (b*c). Yet, in this project they are implemented four alternative commands based on this form:
 
-MAC - a = a + (b*c) 
+MAC: a = a + (b*c) 
 
-MSUB - a = a - (b*c)
+MSUB: a = a - (b*c)
 
-MAND - a = a & (b*c)
+MAND: a = a & (b*c)
 
-MOR - a = a | (b*c)
+MOR: a = a | (b*c)
 
 * The OpCode for these commands is the same with that of MIPS32 architect. 
 
